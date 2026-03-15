@@ -6,10 +6,10 @@ class Miro < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/dambyworld/miro/releases/download/v0.1.0/miro-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b10bb9cd67afac9c0a25ec2b1d4728a65fde5e3ca761db1d2d4e2879af416f66"
+      sha256 "373d96984c02cd20385e184c544b05dc44094285c2e6be05f5de83e35656bea5"
     else
       url "https://github.com/dambyworld/miro/releases/download/v0.1.0/miro-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "398f5d08cf1f51762b3e8269b0ac8d0c82979e64b85943750aa458c2da50a6b1"
+      sha256 "df7b780ecc0d7139efc6e07fa2ee45aa4f9fa98408e01275934c4d39e0f9ae25"
     end
   end
 
