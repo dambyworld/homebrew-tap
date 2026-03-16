@@ -1,15 +1,15 @@
 class Miro < Formula
   desc "Terminal TUI for managing codex/claude-code sessions"
   homepage "https://github.com/dambyworld/miro"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dambyworld/miro/releases/download/v0.1.1/miro-0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "4bcaa85eb927826b62787cd5c4c3a0d095bd1f139de0d76de88f0ff48c3dc7bb"
+      url "https://github.com/dambyworld/miro/releases/download/v0.1.2/miro-0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "11aa46a2dbcea929a2aa47cced08a69e1a8fd8610dd8deee603f8ea9fb214308"
     else
-      url "https://github.com/dambyworld/miro/releases/download/v0.1.1/miro-0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "4d3fb604d9a59415fb6c20c1fe4205d94ed1ba1a75286de2ca1528d1bdd5cfda"
+      url "https://github.com/dambyworld/miro/releases/download/v0.1.2/miro-0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "52ff2c58e2391a50fe3b48ff300f33c77073372e4381fcf9c37c522f1f54dec6"
     end
   end
 
